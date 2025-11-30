@@ -2,7 +2,7 @@ package ma.dentalTech.entities.Dossier;
 
 import ma.dentalTech.entities.BaseEntity;
 
-public class InterventionMédecin extends BaseEntity {
+public abstract class InterventionMedecin extends BaseEntity {
 
     private Long IdIM;
     private Double prixDePatient;
@@ -11,7 +11,7 @@ public class InterventionMédecin extends BaseEntity {
     // Association vers Acte (relation N-1)
     // Association vers Consultation (relation N-1)
 
-    public InterventionMédecin() {
+    public InterventionMedecin() {
         super();
     }
     // ... Getters et Setters ...
