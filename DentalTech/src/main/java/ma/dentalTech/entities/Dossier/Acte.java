@@ -2,9 +2,8 @@ package ma.dentalTech.entities.Dossier;
 
 import ma.dentalTech.entities.BaseEntity;
 
-// Importez votre Enum CategorieActeEnum
 
-public class Acte extends BaseEntity {
+public abstract class Acte extends BaseEntity {
 
     private Long idActe;
     private String libelle;

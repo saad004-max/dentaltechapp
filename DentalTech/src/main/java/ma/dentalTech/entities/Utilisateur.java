@@ -1,16 +1,46 @@
 package ma.dentalTech.entities;
 
 import java.time.LocalDate;
-// Importez vos classes/enums : Role, Adresse, Sexe
+import java.time.LocalDateTime;
+
 
 public class Utilisateur extends BaseEntity {
 
+    public String login;
+    public String motDePass;
+    public LocalDate lastLoginDate;
+    public Role role; // The field whose setter/getter is causing issues
 
-    // private Role role; // Association vers l'entité Role
 
-    public Utilisateur() {
-        super();
+    public String getMotDePass() {
+        return motDePass;
+    }
+    public void setMotDePass(String motDePass) {
+        this.motDePass = motDePass;
     }
 
-    // ... Getters et Setters ...
+    public String getLogin() {
+        return login;
+    }
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public void setLastLoginDate(LocalDate lastLoginDate) {
+        this.lastLoginDate = lastLoginDate;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
+
+    public LocalDate getLastLoginDate() {
+        return lastLoginDate;
+    }
+    public Role getRole() {
+        return role;
+    }
+
+
+    public Utilisateur() {}
 }

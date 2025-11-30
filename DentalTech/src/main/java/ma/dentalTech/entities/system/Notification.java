@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 // Importez vos Enums TitreNotificationEnum, TypeNotificationEnum, PrioritéEnum
 
-public class Notification extends BaseEntity {
+public abstract class Notification extends BaseEntity {
 
     private Long id;
     // private TitreNotificationEnum titre;

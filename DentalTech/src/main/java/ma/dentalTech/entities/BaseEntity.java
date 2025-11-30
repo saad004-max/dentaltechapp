@@ -5,11 +5,11 @@ import java.time.LocalDateTime;
 
 public abstract class BaseEntity {
 
-    private Long idEntité;
-    private LocalDate dateCréation;
-    private LocalDateTime dateDernièreModification;
-    private String modifiéPar;
-    private String crééPar;
+    public Long idEntite;
+    public LocalDate dateCreation;
+    public LocalDateTime dateDerniereModification;
+    public String modifiePar;
+    public String creePar;
 
-    // ... Constructeur, Getters et Setters ...
+    public abstract String getNom();
 }
