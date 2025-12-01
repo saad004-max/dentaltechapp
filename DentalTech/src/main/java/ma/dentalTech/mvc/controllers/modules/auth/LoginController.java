@@ -13,10 +13,8 @@ public class LoginController {
 
     public void handleLogin(String login, String password) {
         try {
-            // Error "Cannot resolve method 'authenticate(String, String)'" resolved by UserService import
             Utilisateur authenticatedUser = userService.authenticate(login, password);
 
-            // Error "Cannot resolve method 'getNom' in 'Utilisateur'" resolved by Utilisateur import
             System.out.println("Connexion réussie! Bienvenue " + authenticatedUser.getNom());
 
         } catch (SecurityException e) {

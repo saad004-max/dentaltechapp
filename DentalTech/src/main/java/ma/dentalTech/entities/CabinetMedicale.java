@@ -1,8 +1,7 @@
 package ma.dentalTech.entities;
 
-// Importez votre classe Adresse
 
-public class CabinetMédicale {
+public class CabinetMedicale {
 
 
     private Long idUser;
@@ -17,7 +16,7 @@ public class CabinetMédicale {
     private String instagram;
     private String facebook;
 
-    public CabinetMédicale() {
+    public CabinetMedicale() {
         // Constructeur
     }
     // ... Getters et Setters ...

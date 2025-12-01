@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 
-public class Utilisateur extends BaseEntity {
+public abstract class Utilisateur extends BaseEntity {
 
     public String login;
     public String motDePass;
@@ -42,5 +42,7 @@ public class Utilisateur extends BaseEntity {
     }
 
 
-    public Utilisateur() {}
+    public Utilisateur() {
+
+    }
 }

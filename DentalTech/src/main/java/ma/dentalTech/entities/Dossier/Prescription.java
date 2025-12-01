@@ -2,15 +2,13 @@ package ma.dentalTech.entities.Dossier;
 
 import ma.dentalTech.entities.BaseEntity;
 
-public class Prescription extends BaseEntity {
+public abstract class Prescription extends BaseEntity {
 
     private Long idPr;
-    private int quantité;
-    private String fréquence;
-    private int duréeEnJours;
+    private int quantite;
+    private String frequence;
+    private int dureeEnJours;
 
-    // Association vers Médicament (relation N-1)
-    // Association vers Ordonnance (relation N-1)
 
     public Prescription() {
         super();

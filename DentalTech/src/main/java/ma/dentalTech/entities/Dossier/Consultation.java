@@ -4,7 +4,7 @@ import ma.dentalTech.entities.BaseEntity;
 import java.time.LocalDate;
 // Importez votre Enum StatutConsultationEnum
 
-public class Consultation extends BaseEntity {
+public abstract class Consultation extends BaseEntity {
 
     private Long idConsultation;
     private LocalDate Date;

@@ -8,8 +8,7 @@ public abstract class InterventionMedecin extends BaseEntity {
     private Double prixDePatient;
     private Integer numDent;
 
-    // Association vers Acte (relation N-1)
-    // Association vers Consultation (relation N-1)
+
 
     public InterventionMedecin() {
         super();
