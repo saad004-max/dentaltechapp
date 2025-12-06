@@ -13,5 +13,4 @@ public abstract class Ordonnance extends BaseEntity {
     public Ordonnance() {
         super();
     }
-    // ... Getters et Setters ...
 }

@@ -1,6 +1,6 @@
 package ma.dentalTech.entities;
 
-public class Secretaire extends Utilisateur {
+public abstract class Secretaire extends Utilisateur {
 
     private String numCNSS;
     private Double commission;
@@ -9,5 +9,4 @@ public class Secretaire extends Utilisateur {
         super();
     }
 
-    // ... Getters et Setters ...
 }

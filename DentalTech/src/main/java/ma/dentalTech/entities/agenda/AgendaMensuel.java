@@ -1,7 +1,10 @@
-package ma.dentalTech.entities;
+package ma.dentalTech.entities.agenda;
+
+import ma.dentalTech.entities.BaseEntity;
+import ma.dentalTech.entities.Jour;
+import ma.dentalTech.entities.Medecin;
 
 import java.util.List;
-import java.time.Month;
 
 public abstract class AgendaMensuel extends BaseEntity {
 

@@ -11,7 +11,7 @@ public abstract class InterventionMedecin extends BaseEntity {
 
 
     public InterventionMedecin() {
+
         super();
     }
-    // ... Getters et Setters ...
 }

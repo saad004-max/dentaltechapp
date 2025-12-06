@@ -8,7 +8,7 @@ public class CabinetMedicale {
     private String nom;
     private String email;
     private String logo;
-    // private Adresse adresse;
+    private String adresse;
     private String cin;
     private String tel1;
     private String tel2;
@@ -17,7 +17,6 @@ public class CabinetMedicale {
     private String facebook;
 
     public CabinetMedicale() {
-        // Constructeur
+
     }
-    // ... Getters et Setters ...
 }

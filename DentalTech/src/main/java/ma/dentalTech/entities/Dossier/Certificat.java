@@ -8,13 +8,11 @@ public abstract class Certificat extends BaseEntity {
     private Long idCertif;
     private LocalDate dateDebut;
     private LocalDate dateFin;
-    private int durée;
+    private int duree;
     private String noteMedecin;
 
-    // Association vers DossierMédicale (relation 1-N)
 
     public Certificat() {
         super();
     }
-    // ... Getters et Setters ...
 }

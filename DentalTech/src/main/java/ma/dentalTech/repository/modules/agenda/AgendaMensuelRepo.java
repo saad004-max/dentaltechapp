@@ -1,6 +1,6 @@
 package ma.dentalTech.repository.modules.agenda;
 
-import ma.dentalTech.entities.AgendaMensuel;
+import ma.dentalTech.entities.agenda.AgendaMensuel;
 import ma.dentalTech.entities.Medecin;
 import java.util.Optional;
 

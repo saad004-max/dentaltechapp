@@ -6,8 +6,8 @@ import java.time.LocalDate;
 
 public abstract class DossierMedical extends BaseEntity {
 
-    private Long idDM; // IdDM: Long
-    private LocalDate dateDeCreation; // dateDeCréation: LocalDate
+    private Long idDM;
+    private LocalDate dateDeCreation; 
 
 
 }

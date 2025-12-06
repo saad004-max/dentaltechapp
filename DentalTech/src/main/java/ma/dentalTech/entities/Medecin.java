@@ -1,7 +1,7 @@
 package ma.dentalTech.entities;
 
-// Importez votre entité AgendaDocteur ou AgendaMensuel
-// import ma.dentalTech.entities.agenda.AgendaMensuel;
+
+import ma.dentalTech.entities.agenda.AgendaMensuel;
 
 public abstract class Medecin extends Utilisateur {
 
@@ -12,5 +12,4 @@ public abstract class Medecin extends Utilisateur {
         super();
     }
 
-    // ... Getters et Setters ...
 }

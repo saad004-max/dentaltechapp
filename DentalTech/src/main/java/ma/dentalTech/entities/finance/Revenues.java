@@ -3,9 +3,8 @@ package ma.dentalTech.entities.finance;
 import ma.dentalTech.entities.BaseEntity;
 import java.time.LocalDateTime;
 
-public class Revenues extends BaseEntity {
+public abstract class Revenues extends BaseEntity {
 
-    // Note: Pas d'ID spécifique dans le diagramme, utilisons l'ID de BaseEntity
     private String titre;
     private String description;
     private Double montant;
@@ -14,5 +13,4 @@ public class Revenues extends BaseEntity {
     public Revenues() {
         super();
     }
-    // ... Getters et Setters ...
 }

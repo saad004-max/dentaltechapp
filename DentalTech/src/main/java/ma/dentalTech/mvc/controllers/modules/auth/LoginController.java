@@ -1,11 +1,11 @@
-package ma.dentalTech.mvc.controllers.modules.auth; // Adjust this package declaration if necessary
+package ma.dentalTech.mvc.controllers.modules.auth;
 
-import ma.dentalTech.repository.modules.auth.UserService ; // <--- ADD THIS IMPORT
-import ma.dentalTech.entities.Utilisateur; // <--- ADD THIS IMPORT
+import ma.dentalTech.repository.modules.auth.UserService ;
+import ma.dentalTech.entities.Utilisateur;
 
 public class LoginController {
 
-    private final UserService userService; // Resolved by import
+    private final UserService userService;
 
     public LoginController(UserService userService) {
         this.userService = userService;
@@ -15,10 +15,10 @@ public class LoginController {
         try {
             Utilisateur authenticatedUser = userService.authenticate(login, password);
 
-            System.out.println("Connexion réussie! Bienvenue " + authenticatedUser.getNom());
+            System.out.println("Connexion reussie! Bienvenue " + authenticatedUser.getNom());
 
         } catch (SecurityException e) {
-            System.err.println("Échec de la connexion: " + e.getMessage());
+            System.err.println("Echec de la connexion: " + e.getMessage());
         }
     }
 }

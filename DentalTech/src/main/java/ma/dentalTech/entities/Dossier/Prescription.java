@@ -13,5 +13,4 @@ public abstract class Prescription extends BaseEntity {
     public Prescription() {
         super();
     }
-    // ... Getters et Setters ...
 }

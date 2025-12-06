@@ -11,6 +11,6 @@ public interface OrdonnanceRepository {
     Optional<Ordonnance> findById(Long id);
     void delete(Ordonnance ordonnance); // Supprimer une ordonnance
 
-    // Lister les ordonnances liées à un dossier spécifique
+    // Lister les ordonnances liees à un dossier specifique
     List<Ordonnance> findAllByDossierMedical(DossierMedical dossier);
 }
